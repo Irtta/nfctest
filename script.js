@@ -11,7 +11,8 @@ function authenticateNFC() {
     const expectedToken = "YOUR_SHARED_TOKEN"; // Replace with your actual shared token
     if (token === expectedToken) {
         // Authentication successful, redirect user to authenticated page
-        window.location.href = "authenticated.html"; // Replace "authenticated.html" with your authenticated page URL
+        window.location.href = "https://irtta.github.io/nfctest/?token=YOUR_SHARED_TOKEN
+"; // Replace "authenticated.html" with your authenticated page URL
     } else {
         // Authentication failed, display error message
         alert("Authentication failed. Please try again.");
